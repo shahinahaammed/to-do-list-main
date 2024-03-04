@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' sans-serif;
+}
+.box{
+  max-width: 100rem;
+}
+.Headings{
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-family: initial;
+}
+.Heading{
+  justify-content: center;
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+}
+p{
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.box-container{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  max-width: 100rem;
+
+}
+.add{
+  padding: 5px;
+  font-size: 8px;       
+  font-family:'poppins' sans-serif;
+  font-weight:400;
+  background-color: rgb(208, 208, 213);
+}
+.add input{
+  margin:5px 0px;
+  padding: 3px;
+  font-size: 10px;
+  width: 100%;
+  height: 16px; 
+}
+.lists{
+  background-color: rgb(208, 208, 213);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+
+}
+.Add-task{
+  background-color: #224f3f;
+  color: azure;
+  font-size: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 2px;
+  margin: 2px 0px;
+  cursor: pointer;
+  border: 1px solid transparent;
+    transition: border-color 0.25;
+  border-radius:4px ;
+}
+.Add-task:hover{
+  background-color:#21ca0b;
+  color: black;
+}
+.List{
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'poppins';
+}
+ .List-details{
+  display: flex;
+  padding-right: 14px;
+  text-align: center;
+  border: 0.1px solid black;
+  width: 100%;
+  height: 18px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif
+}
+ .List-details span{
+  border-left: 0.1px solid black;
+  width: 100%;
+ }
+ .textedit{ 
+  font-size:  10px;
+  text-align: center;
+  display: flex;
+  margin: 0px 5px;
+  width: 100%;
+  }
+  .text-details{
+    border: 0.1px solid black;
+    border-collapse:collapse ;
+  }
+  .Edit{
+    background-color: rgb(29, 29, 220);
+    color: rgb(233, 230, 230);
+    padding:  2px;
+    font-size: 10px;
+    font-family: inherit;
+    margin: 2px;
+    border: 1px solid transparent;
+    transition: border-color 0.25;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Edit:hover{
+    background-color: rgb(19, 150, 198);
+    color: rgba(9, 8, 8, 0.813);
+    font-weight: 500;
+  }
+  .Delete{
+    background-color: rgb(222, 25, 19);
+    color: rgb(233, 230, 230);
+    padding: 2px;
+    font-size: 10px;
+    font-family: inherit;
+    margin: 2px;
+    border: 1px solid transparent;
+    transition: border-color 0.25;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+    .Delete:hover{
+      background-color: rgb(223, 6, 6);
+      color: rgba(9, 8, 8, 0.813);
+      font-weight: 500;
+    }
+  
